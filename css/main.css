@@ -1,0 +1,119 @@
+/** Base Styles **/
+body {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 16px;
+  color: #875860;
+}
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.half-width {
+  height: 300px;
+  width: 600px;
+  margin: 0;
+  float: left;
+}
+/** Header **/
+header {
+  height: 800px;
+  background: url(../img/hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header h1 {
+  padding: 100px 250px 0 250px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 60px;
+  text-align: center;
+}
+header h2 {
+  padding: 250px 250px 0 250px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+/** Main **/
+#work {
+  height: 1450px;
+}
+#work h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 75px 0 100px 0;
+  margin: 0;
+}
+#work .half-width {
+  padding-bottom: 90px;
+}
+#work img {
+  border: 1px solid #b7b7b7;
+}
+#work h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+#work p {
+  font-size: 24px;
+}
+#about {
+  height: 650px;
+  background: #bac8f7;
+}
+#about h3 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0 75px 0;
+  margin: 0;
+}
+#about img {
+  padding-left: 100px;
+}
+#about h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+#about p {
+  font-size: 24px;
+}
+/** Footer **/
+footer {
+  background:#875860;
+  color: #ffffff;
+}
+#contact h3 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  margin: 0;
+}
+#contact h4 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+#contact p {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+#contact a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#contact ul {
+  padding-left: 175px;
+}
+#contact ul li {
+  list-style: none;
+  display: inline-block;
+}
+#contact i {
+  font-size: 50px;
+  padding-right: 50px;
+}
